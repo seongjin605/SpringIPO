@@ -25,8 +25,8 @@ public class MainController {
 	public String registerGet(Model model) throws Exception{
 		logger.info("main get! .........");
 		
-		int totalUser=userService.selectCountUser();
-		model.addAttribute("totalUser",  totalUser);
+		//int totalUser=userService.selectCountUser();
+		//model.addAttribute("totalUser",  totalUser);
 
 		return "main/main";
 	}
